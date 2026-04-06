@@ -8,6 +8,8 @@ font-size = 12
 custom-shader = ./ghostty-cursor-shaders/cursor_warp.glsl
 custom-shader = ./ghostty-cursor-shaders/ripple_cursor.glsl
 
+bell-features = false
+
 # Window
 window-theme = dark 
 window-padding-x = 2
@@ -24,7 +26,7 @@ cursor-style-blink = false
 # (all shell integration options must be passed together)
 shell-integration-features = no-cursor,ssh-env
 window-padding-color = extend-always
-background-image-opacity = 0.0
+background-image-opacity = 1.0
 # Keyboard bindings
 keybind = control+p=paste_from_clipboard
 keybind = control+y=copy_to_clipboard
