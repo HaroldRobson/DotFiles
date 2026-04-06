@@ -1,0 +1,1 @@
+/home/Harold/.config/omarchy/current/theme/neovim.lua
